@@ -1,0 +1,36 @@
+body {
+  background: #282c3f;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#categorySelect {
+  padding: 12px 30px;
+  width: 250px;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 80px;
+}
+h1 {
+  text-align: center;
+  color: orangered;
+}
+
+#foodContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-top: 30px;
+  color: #fff;
+  padding: 30px;
+}
+#foodContainer > div {
+  text-align: center;
+}
+
+#foodContainer > div > img {
+  width: 310px;
+  height: 240px;
+  border-radius: 14px;
+}
